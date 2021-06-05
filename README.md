@@ -20,6 +20,13 @@ LINUX
 -   `./vendor/bin/sail up`
 -   `php artisan migrate`
 
-### START IT
+EMAIL
+
+-   Crearemos una cuenta en https://mailtrap.io/
+-   Copiaremos el usuario y contraseña indicado en la web
+-   Pegaremos los datos anteriores en el .env (`MAIL_USERNAME` y `MAIL_PASSWORD`)
+-   `MAIL_ENCRYPTION=tls`
+
+## START IT
 
 Accederemos a traves de la siguiente URL - http://localhost (Si no tenemos el puerto 80 ocupado)

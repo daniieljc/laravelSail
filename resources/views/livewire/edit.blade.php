@@ -34,7 +34,7 @@
 
         <div class="mt-4 sm:mt-5">
             <span class="flex w-full rounded-md shadow-sm">
-                <button wire:click="update"
+                <button wire:click="update" @click="editar = false"
                     class="inline-flex justify-center w-full px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700 mr-2">
                     Añadir
                 </button>
